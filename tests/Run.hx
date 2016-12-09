@@ -2,7 +2,7 @@ package;
 
 import haxe.Http;
 
-class Main
+class Run
 {
 
     static function main() : Void
