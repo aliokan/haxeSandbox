@@ -18,6 +18,7 @@ install:
 
 script:
 - haxelib run travix js
+- cat bin/js/tests.js
 
 notifications:
   email:
