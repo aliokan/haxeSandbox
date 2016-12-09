@@ -13,6 +13,7 @@ haxe:
 
 install:
 - haxelib install travix 
+- haxelib install build.hxml
 - haxelib dev haxesandbox .
 
 script:
