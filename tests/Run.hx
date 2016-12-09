@@ -7,6 +7,11 @@ class Run
 
     static function main() : Void
     {
-        trace("Hello");
+        travix.Logger.println("Hello");
+        
+        var request = new Http( "" );
+        request.request ( false );
+
+        travix.Logger.exit(exitCode)
     }
 }
