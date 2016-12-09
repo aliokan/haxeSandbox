@@ -1,0 +1,9 @@
+-cp ./tests
+
+-lib haxe-js-kit
+-D hxnodejs_no_version_warning=1
+-D client
+
+-main Run
+
+-debug

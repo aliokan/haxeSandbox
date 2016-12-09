@@ -1,0 +1,13 @@
+{
+  "name": "haxesandbox",
+  "license": "MIT",
+  "description": "",
+  "releasenote": "",
+  "contributors": ["ali_o_kan"],
+  "version": "0.0.0",
+  "url": "https://github.com/aliokan/haxeSandbox",
+  "dependencies": 
+  {
+	"haxe-js-kit": "git:https://github.com/clemos/haxe-js-kit.git#c43587462fb7c470257a49c29bb1a923c0ca5f14"
+  }
+}

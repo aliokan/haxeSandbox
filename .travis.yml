@@ -1,0 +1,23 @@
+sudo: required
+dist: trusty
+
+language: haxe
+
+# haxe versions : http://haxe.org/website-content/downloads/versions.json
+
+haxe:
+- "3.2.1"
+- "3.3.0-rc.1"
+- "3.4.0-rc.1"
+- development
+
+install:
+- haxelib git travix 
+
+script:
+- haxelib run travix js
+
+notifications:
+  email:
+    recipients:
+    - laurent@geturl.net
