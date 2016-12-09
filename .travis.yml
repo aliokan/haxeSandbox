@@ -12,7 +12,7 @@ haxe:
 - development
 
 install:
-- haxelib git travix 
+- haxelib install travix 
 
 script:
 - haxelib run travix js
