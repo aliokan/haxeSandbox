@@ -1,7 +1,6 @@
 -cp ./src 
 
 -lib haxe-js-kit
--lib hexmachina
 -D hxnodejs_no_version_warning=1
 -D client
 

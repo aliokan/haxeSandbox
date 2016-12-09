@@ -13,6 +13,7 @@ haxe:
 
 install:
 - haxelib install travix 
+- haxelib dev haxesandbox .
 
 script:
 - haxelib run travix js
