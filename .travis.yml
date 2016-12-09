@@ -13,7 +13,7 @@ haxe:
 
 install:
 - haxelib install travix 
-- haxelib git https://github.com/clemos/haxe-js-kit.git#c43587462fb7c470257a49c29bb1a923c0ca5f14
+- haxelib git haxe-js-kit https://github.com/clemos/haxe-js-kit.git#c43587462fb7c470257a49c29bb1a923c0ca5f14  --always
 - haxelib dev haxesandbox .
 
 script:
