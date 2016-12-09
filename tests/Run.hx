@@ -12,6 +12,6 @@ class Run
         var request = new Http( "" );
         request.request ( false );
 
-        travix.Logger.exit(0);
+        travix.Logger.exit(1);
     }
 }
